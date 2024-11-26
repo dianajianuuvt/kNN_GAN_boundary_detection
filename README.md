@@ -34,21 +34,23 @@ The following Python libraries are required:
 Install the dependencies using:
 ```bash
 pip install numpy scikit-learn
+```
 
 Usage
 
-	1.	Extract the BONN epilepsy dataset into the appropriate directory.
-	2.	Run the Jupyter Notebook to:
-	•	Load and preprocess the dataset.
-	•	Train the kNN classifier on O and S samples.
-	•	Classify the F samples.
+1.	Extract the BONN epilepsy dataset into the appropriate directory.
+2.	Run the Jupyter Notebook to:
+   
+	*	Load and preprocess the dataset.
+	*	Train the kNN classifier on O and S samples.
+	*	Classify the F samples.
 
 Key Code Components:
 
-	•	Data Loading: Reads EEG signal data and labels from the dataset.
-	•	Feature Extraction: Converts raw signals into feature vectors.
-	•	kNN Training: Trains a classifier on labeled data.
-	•	Prediction: Classifies unknown signals based on the trained model.
+*	Data Loading: Reads EEG signal data and labels from the dataset.
+*	Feature Extraction: Converts raw signals into feature vectors.
+*	kNN Training: Trains a classifier on labeled data.
+*	Prediction: Classifies unknown signals based on the trained model.
 
 Results
 
